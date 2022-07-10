@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Configuration tool</title>
+</head>
+<body>
+   <center> <h1>Configuration tool</h1> </center> 
+   <div>
+    Actuator activation
+    <form  >
+
+        <label for="blade_length">Blade length:</label>
+          <input type="number" id="blade" name="blade"><br> 
+
+        <label for="board_pattern">Bord Pattern:</label>
+          <input type="json" id="pattern" name="pattern"><br>
+        
+          <label for="board_size">Board Square size in cm:</label>
+          <input type="number" id="size" name="size"><br>
+        
+        <input type="submit" id="save" value="save">
+        <input type="submit" id="reset" value="reset">
+      </form>  
+   </div>
+<script src="./index.js"></script>
+</body>
+</html>
